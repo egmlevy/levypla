@@ -1,0 +1,13 @@
+(function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.doesntmatter = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+var makeWrapper = require("wrap.js")
+
+var meta = JSON.parse("{\"filename\":\"./blogue/AlmaMaterMyAss.html\",\"pathname\":\"/blogue/AlmaMaterMyAss/\",\"title\":\"AlmaMaterMyAss\",\"date\":\"2017-06-23T19:17:03.410Z\",\"summary\":\"Quando você conversa sozinho com um estudante de semiótica, ele reconhece que a semiótica é uma bobagem, e ridiculariza os professores. Nunca encontrei um estudante que não fosse assim. A aula, ele assiste sério; no intervalo você conversa com ele, e juntos zombam do professor e dos teóricos de literatura e, aliás, do mundo acadêmico de modo geral.\"}")
+var content = require("/tmp/react-site/levypla/blogue/AlmaMaterMyAss/content.js")
+
+module.exports = makeWrapper(meta, content)
+module.exports.meta = meta
+
+},{"/tmp/react-site/levypla/blogue/AlmaMaterMyAss/content.js":2,"wrap.js":undefined}],2:[function(require,module,exports){
+module.exports = "<h2 id=\"alma-mater-my-ass\">Alma Mater My Ass</h2>\n<p>Quando você conversa sozinho com um estudante de semiótica, ele reconhece que a semiótica é uma bobagem, e ridiculariza os professores. Nunca encontrei um estudante que não fosse assim. A aula, ele assiste sério; no intervalo você conversa com ele, e juntos zombam do professor e dos teóricos de literatura e, aliás, do mundo acadêmico de modo geral.</p>\n<p>Mas basta juntar todos esses que desprezam em privado o mundo acadêmico, e todos eles levam a seriíssimo o mundo acadêmico. A academia é uma associação de pessoas que amam em conjunto o que desprezam em privado. Um deus em que ninguém acredita, uma guerra lutada por hippies.</p>\n"
+},{}]},{},[1])(1)
+});
